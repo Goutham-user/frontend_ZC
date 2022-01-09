@@ -1,0 +1,155 @@
+.home-background-image{
+    width: -webkit-fill-available;
+    height: 410px !important;
+}
+
+.image-content{
+    position: absolute;
+    top: 14%;
+    left: 32%;
+}
+
+
+.logo{
+    color: orange;
+    background-color: white;
+    display: inline-block;
+    height: auto;
+    width: 16%;
+    font-size: 42px;
+    border-radius: 40px;
+}
+
+.quick-searches{
+    font-size: 25px;
+    font-weight: 600;
+    color:#00688B;
+}
+
+.glyphicon-search{
+    color: darkgrey;
+    font-size: 14px;
+    position: absolute;
+    top: 75%;
+    left: 40.5%;
+}
+
+.dis{
+    color: grey;
+}
+
+.box{   
+    width: 415px !important;
+    height: 125px;
+    margin: 10px;
+    box-shadow: 3px 5px 11px -1px #888888;
+    padding-left: 0px !important;
+}
+
+.container-text{
+    font-size: 30px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.location{
+    height: 34px;
+    width: 194px;
+    padding-left: 7px;
+}
+
+.restaurent{
+    height: 34px;
+    width: 328px;
+    padding-left: 9px;
+}
+
+.box-image{
+    float: left;
+    height: 125px;
+}
+
+.box-text{
+    display: inline-block;
+    width: 48%;
+    color: #00688B;
+    font-size: 19px;
+    font-weight: 600;
+    margin-top: 5px;
+    padding-left: 11px;
+}
+
+#query {
+    width: 325px;
+    box-sizing: border-box;
+    font-size: 14px;
+    padding: 5px;
+    font-family: calibri light;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    background-color: white;
+    color: gray;
+    padding-left: 29px;
+    margin-left: 25px;
+}
+
+#notebooks,.notebook  {
+    position: absolute;
+    left: 68%;
+    width: 350px;
+    border-radius: 5px;
+    max-height: 450px;
+}
+.inside-cont{
+    font-size: 17px;
+    font-weight: 350;
+    color: grey;
+}
+
+.inline{
+    display: inline !important;
+}
+
+/* small screen */
+@media only screen and (min-width: 500px) and (max-width: 792px) {
+    .image-content{
+        left: 13%;
+    }
+    .logo{
+        width: 21%;
+    }
+    .location{
+        width: 92%;
+    }
+    #query{
+        width: 242px;
+    }
+    .restaurent{
+        width: 534px;
+    }
+}
+
+/* medium screen */
+@media only screen and (min-width: 792px) and (max-width: 992px) {
+    .image-content{
+        left: 18%;
+    }
+    .logo{
+        width: 15%;
+    }
+}
+
+ul{
+    font-size: 14px;
+    background-color: #FFFFFF;
+    width: 324px;
+    margin-left: 25px;
+}
+
+
+.notFound{
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    padding-top: 13rem;
+}

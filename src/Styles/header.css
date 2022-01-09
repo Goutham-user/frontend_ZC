@@ -1,0 +1,70 @@
+.header {
+    height: 50px;
+    background-color: red;
+}
+
+.header-logo {
+    text-align: center;
+    font-size: 38px;
+    color: red;
+    background: white;
+    width: 85px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 1%;
+    font-family: Poppins;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.user-group {
+    float: right;
+    color: white;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.login {
+    display: inline-block;
+    font-size: 14px !important;
+}
+
+.signup {
+    display: inline-block;
+    border: solid 1px white;
+    font-size: 14px !important;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.backgroundInherit{
+    background-color: inherit !important;
+}
+
+.btn-link:focus{
+    outline: none !important;
+}
+
+.labelForm { font-size: "15px"; font-weight: "500" }
+
+.navbar{ 
+    margin: 0px !important;
+    border-radius: 0px !important;
+    background-color: red !important;
+}
+
+.navbar:before{
+    content: none !important;
+}
+
+[class*="btn-outline"] {
+    margin: 5px !important;
+    background-color: inherit !important;
+    font-size: 12px !important;
+}
+
+.loginbuttonalign{
+    display: inline-block !important;
+    width: 82% !important;
+    text-align: right !important;
+}
