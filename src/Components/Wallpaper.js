@@ -19,7 +19,7 @@ class Wallpaper extends React.Component {
         sessionStorage.setItem('locationId', locationId);
 
         axios({
-            url: `http://localhost:2000/restaurents/${locationId}`,
+            url: `https://git-repo-zc-api4.onrender.com/restaurents/${locationId}`,
             method: 'GET',
             headers: { 'Content-Type': 'application/json' }
         })

@@ -16,7 +16,7 @@ class Home extends React.Component {
         sessionStorage.clear();
         document.title = "Zomato | Home";
         axios({
-            url:'http://localhost:2000/locations',
+            url:'https://git-repo-zc-api4.onrender.com/locations',
             method:'GET',
             headers:{'Content-Type' : 'application/json' }
         }).then(res => {
@@ -24,7 +24,7 @@ class Home extends React.Component {
         }).catch(err => console.log(err))
         
         axios({
-            url:'http://localhost:2000/mealtypes',
+            url:'https://git-repo-zc-api4.onrender.com/mealtypes',
             method:'GET',
             headers:{'Content-Type' : 'application/json'}
         }).then(res => {

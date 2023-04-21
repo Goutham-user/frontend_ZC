@@ -47,7 +47,7 @@ class DetailPage extends React.Component {
         const { restaurentId } = qs;
 
         axios({
-            url: `http://localhost:2000/restaurent/${restaurentId}`,
+            url: `https://git-repo-zc-api4.onrender.com/restaurent/${restaurentId}`,
             method: 'GET',
             headers: { 'Content-Type': 'application/json' }
         })
@@ -61,7 +61,7 @@ class DetailPage extends React.Component {
         const { restaurentId } = this.state;
         if (state == "menuItemsModalIsOpen" && value == true) {
             axios({
-                url: `http://localhost:2000/menuitems/${restaurentId}`,
+                url: `https://git-repo-zc-api4.onrender.com/menuitems/${restaurentId}`,
                 method: 'GET',
                 headers: { 'Content-Type': 'application/json' }
             })
@@ -134,7 +134,7 @@ class DetailPage extends React.Component {
     }
 
     getData = (data) => {
-        return fetch(`http://localhost:2000/payment`, {
+        return fetch(`https://git-repo-zc-api4.onrender.com/payment`, {
             method: "POST",
             headers: {
                 Accept: "application/json",

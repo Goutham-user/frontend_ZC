@@ -67,7 +67,7 @@ class Header extends React.Component {
             contactNumber: userNumber
         }
         axios({
-            url: 'http://localhost:2000/signup',
+            url: 'https://git-repo-zc-api4.onrender.com/signup',
             method: 'POST',
             headers: { 'content-Type': "application/json" },
             data: userData
@@ -89,7 +89,7 @@ class Header extends React.Component {
             password: userLoginPassword
         }
         axios({
-            url: 'http://localhost:2000/login',
+            url: 'https://git-repo-zc-api4.onrender.com/login',
             method: 'POST',
             headers: { 'content-Type': "application/json" },
             data: loginData

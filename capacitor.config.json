@@ -1,0 +1,8 @@
+{
+  "appId": "io.ionic.nameofyourapp",
+  "appName": "zomato_clone",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "build",
+  "cordova": {}
+}

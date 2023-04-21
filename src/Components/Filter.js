@@ -33,7 +33,7 @@ class Filter extends React.Component {
 
 
         axios({
-            url:'http://localhost:2000/filter',
+            url:'https://git-repo-zc-api4.onrender.com/filter',
             method:'POST',
             headers:{'Content-Type' : 'application/json' },
             data: filterObj
@@ -42,7 +42,7 @@ class Filter extends React.Component {
         }).catch(err => console.log(err))
 
         axios({
-            url:'http://localhost:2000/locations',
+            url:'https://git-repo-zc-api4.onrender.com/locations',
             method:'GET',
             headers:{'Content-Type' : 'application/json' }
         }).then(res => {
@@ -66,7 +66,7 @@ class Filter extends React.Component {
 
 
         axios({
-            url:'http://localhost:2000/filter',
+            url:'https://git-repo-zc-api4.onrender.com/filter',
             method:'POST',
             headers:{'Content-Type' : 'application/json' },
             data: filterObj
@@ -91,7 +91,7 @@ class Filter extends React.Component {
 
 
         axios({
-            url:'http://localhost:2000/filter',
+            url:'https://git-repo-zc-api4.onrender.com/filter',
             method:'POST',
             headers:{'Content-Type' : 'application/json' },
             data: filterObj
@@ -116,7 +116,7 @@ class Filter extends React.Component {
         };
         console.log(_locationId)
         axios({
-            url:'http://localhost:2000/filter',
+            url:'https://git-repo-zc-api4.onrender.com/filter',
             method:'POST',
             headers:{'Content-Type' : 'application/json' },
             data: filterObj
@@ -138,7 +138,7 @@ class Filter extends React.Component {
       };
 
       axios({
-          url:'http://localhost:2000/filter',
+          url:'https://git-repo-zc-api4.onrender.com/filter',
           method:'POST',
           headers:{'Content-Type' : 'application/json' },
           data: filterObj

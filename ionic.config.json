@@ -1,0 +1,7 @@
+{
+    "name": "zomato_clone",
+    "integrations": {
+      "capacitor": {}
+    },
+    "type": "react"
+  }
