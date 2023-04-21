@@ -49,5 +49,8 @@
   },
   "devDependencies": {
     "@capacitor/cli": "^4.7.3"
+  },
+  "engines": {
+    "node": ">=14.20.1"
   }
 }
