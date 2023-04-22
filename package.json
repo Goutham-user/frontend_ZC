@@ -28,7 +28,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "install": "yarn install --force"
+    "postinstall": "yarn install --ignore-scripts"
   },
   "eslintConfig": {
     "extends": [
@@ -53,6 +53,7 @@
   },
   "engines": {
     "node": ">=14.20.1",
-    "npm":"7.0.0"
+    "npm": "please-use-yarn",
+    "yarn": ">= 1.19.1"
   }
 }
