@@ -118,7 +118,7 @@ class Header extends React.Component {
                         </div>
                         :
                         <div className="loginbuttonalign">
-                            <button className="btn btn-outline-dark" onClick={() => this.handleModal('loginModalIsOpen', true)}>Login</button>
+                            <button className="btn btn-outline-dark" disabled onClick={() => this.handleModal('loginModalIsOpen', true)}>Login</button>
                             <button className="btn btn-outline-dark" onClick={() => this.handleModal('registerModalIsOpen', true)}>Create an account</button>
                         </div>
                     }
